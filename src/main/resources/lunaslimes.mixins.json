@@ -9,11 +9,13 @@
     "client.SlimeRendererMixin"
   ],
   "mixins": [
+    "SlimeMixin"
+  ],
+  "server": [
     "BaseSpawnerMixin",
     "LivingEntityMixin",
     "MagmaCubeMixin",
     "MobMixin",
-    "SlimeMixin",
     "SlimeMoveControlMixin"
   ],
   "injectors": {
